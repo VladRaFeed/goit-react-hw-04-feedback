@@ -18,6 +18,8 @@ export default function App() {
         return setNeutral(prevStateNeutral => prevStateNeutral + 1);
       case 'bad':
         return setBad(prevStateBad => prevStateBad + 1);
+      default:
+        return;
     }
   };
 
